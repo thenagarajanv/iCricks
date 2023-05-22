@@ -1,0 +1,92 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url('https://img.cricketworld.com/images/f-057940/edgbaston.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-menu {
+    float: right;
+    padding-right: 20px;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu li a {
+    color: brown;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.nav-menu li a:hover {
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.topic {
+    padding-left: 50px;
+    font-size: 50px;
+}
+
+.tables {
+    border-spacing: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tt {
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    border: 10px solid;
+    border-color: transparent;
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.tt a {
+    color: white;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.td {
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+    color: red;
+    border: 10px solid;
+    border-color: transparent;
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.td1 {
+    text-align: center;
+    padding: 1px;
+    border-radius: 25px;
+    color: white;
+    border: 10px solid;
+    border-color: transparent;
+    background-color: rgba(0,0,0,0.8);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.td1 a {
+    color: green;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}

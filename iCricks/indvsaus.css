@@ -1,0 +1,89 @@
+body {
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url('https://cdn.insidesport.co/wp-content/uploads/2020/10/26195128/AUSTRALIA-1-1-1.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-menu {
+    float: right;
+    padding-right: 20px;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu li a {
+    color: green;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+.nav-menu li a:hover {
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.topic {
+    text-align: center;
+    font-size: 40px;
+    padding-left: 400px;
+    color: orangered;
+}
+
+.th1 {
+    padding-top: 20px;
+    color: blue;
+    font-size: 20px;
+}
+
+.th2 {
+    padding-top: 20px;
+    color: yellow;
+    font-size: 20px;
+}
+
+.matchtype {
+    text-align: left;
+    color: chocolate;
+    font-size: 18px;
+}
+
+.tables {
+    border-spacing: 20px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.tables td {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    color: white;
+}
+
+.playerstat {
+    border-spacing: 20px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(0,0,0,0.7);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    flex-direction: row;
+}
+
+.playerstat tr td li {
+    font-size: 20px;
+    color: thistle;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
